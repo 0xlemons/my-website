@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lemons</title>
+</head>
+<body style="background-color:#000000">
+    <center style="color:purple">
+        <img src="{{url_for('static', filename='images/pfp.jpeg')}}" style="border:2px solid purple; width: 300px; height: 300px"/><br>
+        <table>
+            <tr>
+                <td>
+                    <h3 style="color:purple">i like lemons.</h3>
+                </td>
+            </tr>
+        </table>
+
+        <table style="border: 1px solid purple">
+            <tr>
+                <td>
+                    <a href="{{url_for('static', filename='contact.txt')}}" style="color:purple">[+] Contact Information</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="{{url_for('static', filename='pgp.txt')}}" style="color:purple">[+] Public PGP Key</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="{{url_for('static', filename='updates.txt')}}" style="color:purple">[+] All Updates</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://github.com/0xlemons" style="color:purple">[+] Github</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="{{url_for('static', filename='onion.txt')}}" style="color:purple">[+] Onion Site</a>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
