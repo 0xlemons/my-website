@@ -1,13 +1,9 @@
 import os
 
-try:
-    from flask import Flask, request, render_template
-    import uuid
-except:
-    os.system("pip3 install flask")
-    os.system("pip3 install uuid")
-    from flask import Flask, request, render_template
-    import uuid
+os.system("pip3 install flask")
+os.system("pip3 install uuid")
+from flask import Flask, request, render_template
+import uuid
 
 app = Flask(__name__)
 
